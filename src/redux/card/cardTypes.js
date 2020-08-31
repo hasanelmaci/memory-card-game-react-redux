@@ -1,0 +1,6 @@
+export const CARD_OPEN_FIRST = "CARD_OPEN_FIRST";
+export const CARD_OPEN_SECOND = "CARD_OPEN_SECOND";
+export const CARD_IS_SAME = "CARD_IS_SAME";
+export const CARDS_MATCHED = "CARDS_MATCHED";
+export const CARDS_NOT_MATCHED = "CARDS_NOT_MATCHED";
+export const RESTART_THE_GAME = "RESTART_GAME";
