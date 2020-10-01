@@ -8,8 +8,8 @@ body{
 }
 
 .App{
-    margin-top:1%;
-    margin-left:25%;
+    width: 50%;
+    margin: 0 auto;
 
 }
 
@@ -25,7 +25,7 @@ body{
 .desk{
     display:flex;
     flex-wrap: wrap;
-    max-width:1000px;
+    max-width:100%;
     margin-top:50px;
 
 }
@@ -87,3 +87,68 @@ img{
     font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
     color:rgb(107, 107, 107);
 }
+
+
+@media only screen and (max-width: 600px) {
+ 
+    .desk{
+        max-width:100%;
+        margin: 0 auto;
+        margin-left:50px;
+    }
+
+    .maincontainer{
+    width:80px;
+    height: 60px;
+    margin:7px;
+    }
+
+    .App{
+        width: 100%;
+        margin:0 auto;
+    }
+
+    img{
+        width: 50px;
+    }
+
+    #headerh1{
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        font-size: 3rem;
+        margin:0 auto;
+        width: 100%;
+    }
+
+
+
+
+  }
+
+
+@media only screen and (min-width: 500px) and (max-width: 768px) {
+    .desk{
+        max-width:100%;
+    }
+
+    .maincontainer{
+        width:90px;
+    height: 140px;
+    }
+
+    .App{
+        width: 90%;
+        margin:0 auto;
+    }
+
+    img{
+        width: 70px;
+    }
+
+    #headerh1{
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    }
